@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github API</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <!-- FontsAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Main -->
+    <h1>Github Repo Lister <i class="fas fa-code-branch"></i></h1>
+    <form id="gitHubForm" class="form">
+        <input id="usernameInput" class="form-control" type="text" name="username" placeholder="Enter user name">
+        <input type="submit" class="btn" value="Submit">
+    </form>
+    <ul id="userRepos" class="list-group">
+
+    </ul>
+    <!-- Animation -->
+    <ul class="bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <script src="main.js"></script>
+</body>
+
+</html>
